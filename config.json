@@ -1,0 +1,20 @@
+{ 
+    "params" : 
+    { 
+        "local_server" : "True", 
+        "local_uri" : "mysql://root:@localhost/codingthunder", 
+        "prod_uri" : "mysql://root:@localhost/codingthunder",
+        "github_url" : "https://github.com/AKACHI-4",
+        "facebook_url" : "https://github.com/AKACHI-4",
+        "twitter_url" : "https://github.com/AKACHI-4", 
+        "website_name" : "weGrow", 
+        "Blog_name" : "WeGrow Blogs", 
+        "tag_Line" : "Let's Grow together!!", 
+        "about_text" : "Hy, My name is Adarsh Rawat. I am a developer and learning flask right now.",
+        "no_of_posts" : 2, 
+        "login_img" : "login.png", 
+        "admin_user" : "Adarsh", 
+        "admin_password" : "HareKrishna", 
+        "upload_location" : "E:\\A 1 A\\Flask\\Tutorial-1 (Code with Harry)"
+    }
+}
