@@ -139,7 +139,7 @@ def edit(sno) :
             # otherwise edit existing post
             else :
                 post = Posts.query.filter_by(sno=sno).first()
-                post.box_title = box_title
+                post.title = box_title
                 post.admin = admin
                 post.tline = tagline
                 post.slug = slug
@@ -151,7 +151,7 @@ def edit(sno) :
             return redirect('/dashboard')
 
         post = Posts.query.filter_by(sno=sno).first()
-        return render_template('edit.html', params=params, post=post)
+        return render_template('edit.html', params=params, post=post, sno=sno)
 
 @app.route("/uploader", methods = ['GET','POST'])
 def uploader():
